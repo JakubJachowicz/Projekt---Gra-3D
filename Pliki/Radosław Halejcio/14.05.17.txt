@@ -1,0 +1,11 @@
+Co zrobi³em dzisiaj:
+Zaznajomienie siê z interfejsem Qt Creatora oraz Unity.
+Obejrzenie kilku filmików w celu poznania programu.
+
+
+Co mam zamiar zrobiæ jutro:
+Zapoznanie siê z jêzykiem C#
+Udostêpnienie zaleg³ych daily scrum'ów
+
+Czy by³y jakieœ przeszkody:
+Problem z commitem (AGH-owskie Juwenalia)
