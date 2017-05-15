@@ -1,0 +1,12 @@
+Rzeczy zrobione dziœ:
+	Zaznajomienie siê z podstawami jêzyka C#.
+	Instalacja Unity
+	Pobranie Mono Develop
+
+Rzeczy do zrobienia jutro:
+	Zaznajomienie siê z obs³ug¹ Unity.
+	Wykonanie pierwszego, prowizorycznego projektu.
+	Dalsza nauka C#, pod k¹tem korzystania z Unity.
+
+Problemy:
+	---
