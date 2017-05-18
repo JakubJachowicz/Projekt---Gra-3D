@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\LevelHandler.cs" />
+     <Compile Include="Assets\Scripts\LevelHandler.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity 4.6/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>
