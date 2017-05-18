@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SplashScreen.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LogoLoader.cs">
     <Files>
-      <File FileName="Assets/Scripts/SplashScreen.cs" Line="10" Column="3" />
+      <File FileName="Assets/Scripts/MusicPlayer.cs" Line="11" Column="41" />
+      <File FileName="Assets/Scripts/LogoLoader.cs" Line="15" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
