@@ -1,0 +1,9 @@
+Rzeczy zrobione dziœ:
+	Zablokowanie kamery tak, aby patrzy³a na kulkê.
+	Dadanie parametrów ruchu do kamery, aby by³a w tym samym miejscu za kulk¹.
+
+Rzeczy do zrobienia jutro:
+	Znalezienie skryptu do utworzenia planszy nieskoñczonej w jednym kerunku.
+
+Problemy:
+	---
