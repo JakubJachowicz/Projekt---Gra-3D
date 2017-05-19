@@ -1,0 +1,8 @@
+Co zrobi³em wczoraj:
+Zaimplementowanie do programu odpowiednich skryptów oraz tekstur do tworzenia obszaru poruszania siê.
+
+Co mam zamiar zrobiæ dzisiaj: 
+Stworzenie sceny gry.
+
+Czy by³y jakieœ przeszkody:
+brak
