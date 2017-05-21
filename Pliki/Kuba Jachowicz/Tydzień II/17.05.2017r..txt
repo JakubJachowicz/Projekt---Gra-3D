@@ -1,0 +1,8 @@
+Rzeczy zrobione dziœ:
+	Zablokowanie kamery tak, aby patrzy³a na kulkê.
+
+Rzeczy do zrobienia jutro:
+	Dadanie parametrów do kamery, aby by³a w tym samym miejscu za kulk¹.
+
+Problemy:
+	---
