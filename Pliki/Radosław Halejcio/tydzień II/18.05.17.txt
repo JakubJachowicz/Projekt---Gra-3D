@@ -1,0 +1,8 @@
+Co zrobi³em wczoraj:
+Wykreowanie wizji wygl¹du mapy.
+
+Co mam zamiar zrobiæ dzisiaj: 
+Zaimplementowanie do programu odpowiednich skryptów oraz tekstur do tworzenia obszaru poruszania siê.
+
+Czy by³y jakieœ przeszkody:
+brak
