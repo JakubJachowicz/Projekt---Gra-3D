@@ -1,0 +1,9 @@
+Co zrobi³em dzisiaj:
+Instalacja Qt Creator i Unity.
+
+Co mam zamiar zrobiæ jutro:
+Zaznajomienie siê z interfejsem Qt Creatora oraz Unity.
+Obejrzenie kilku filmików w celu poznania programu.
+
+Czy by³y jakieœ przeszkody:
+Problem z commitem (AGH-owskie Juwenalia)
