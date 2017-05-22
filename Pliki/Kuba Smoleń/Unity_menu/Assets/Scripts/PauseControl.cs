@@ -21,9 +21,7 @@ public class PauseControl : MonoBehaviour {
 				Time.timeScale = 0;
 				showPaused();
 			} else if (Time.timeScale == 0) {
-				Debug.Log ("Unpause");
-				Time.timeScale = 1;
-				hidePaused();
+				Unpause();
 			}
 		}
 	}
@@ -40,5 +38,12 @@ public class PauseControl : MonoBehaviour {
 		foreach(GameObject g in pauseObjects){
 			g.SetActive(false);
 		}
+	}
+	
+	//unpause
+	public void Unpause() {
+		Debug.Log ("Unpause");
+		Time.timeScale = 1;
+		hidePaused();
 	}
 }

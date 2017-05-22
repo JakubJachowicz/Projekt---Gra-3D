@@ -8,12 +8,12 @@ public class LevelHandler : MonoBehaviour {
 	
 	}
 	
-	public void ChangeScene (string name) {
+	public void LoadLevel (string name) {
 		Debug.Log ("Change scene requested to " + name);
 		Application.LoadLevel(name);
 	}
 	
-	public void QuiyRequest () {
+	public void QuitRequest () {
 		Debug.Log ("Quit game requested");
 		Application.Quit();
 	}
