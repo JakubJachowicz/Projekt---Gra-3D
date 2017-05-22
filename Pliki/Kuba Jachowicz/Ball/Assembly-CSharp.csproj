@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BallColorChange.cs" />
      <Compile Include="Assets\Scripts\CameraBehindSphere.cs" />
+     <Compile Include="Assets\Scripts\LightBehindBall.cs" />
      <Compile Include="Assets\Scripts\LightSwitch.cs" />
      <Compile Include="Assets\Scripts\MovementOptions.cs" />
  <Reference Include="UnityEngine.UI">
