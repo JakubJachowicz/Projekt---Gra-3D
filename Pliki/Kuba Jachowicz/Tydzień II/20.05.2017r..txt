@@ -1,0 +1,9 @@
+Rzeczy zrobione dziœ:
+	Poprawienie w³aœciwoœci skoku.
+	Dodanie do skryptu kodu uniemo¿liwiaj¹cego zmianê toru na zajêty.
+
+Rzeczy do zrobienia jutro:
+	Sprawdzenie kontroli kulki przy dodaniu randomowych przeszkód.
+
+Problemy:
+	---
