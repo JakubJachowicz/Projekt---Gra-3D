@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{7189B2DC-3204-BA58-6444-45A7C6718BC3}") = "Unity_menu", "Assembly-CSharp.csproj", "{787CEF11-B3EB-28A5-DEFA-B54DC185E4BF}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity_menu", "Assembly-CSharp.csproj", "{787CEF11-B3EB-28A5-DEFA-B54DC185E4BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
