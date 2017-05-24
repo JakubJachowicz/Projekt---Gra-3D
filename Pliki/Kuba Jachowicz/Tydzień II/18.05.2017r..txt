@@ -1,9 +1,0 @@
-Rzeczy zrobione dziœ:
-	Dodanie komponenty do kamery, aby pod¹¿a³a za kulk¹.
-	Up³ynnienie ruchu kamery, aby przeskoki widoku nie by³y widoczne.
-
-Rzeczy do zrobienia jutro:
-	Ustabilizowanie ruchów kulki tak, ¿eby przy zmianie pozycji w bok przemieszcza³a siê o sta³¹ wartoœæ.
-	
-Problemy:
-	---

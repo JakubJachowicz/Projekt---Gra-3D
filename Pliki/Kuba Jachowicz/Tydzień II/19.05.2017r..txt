@@ -1,8 +1,0 @@
-Rzeczy zrobione dziœ:
-	Kulka przemieszcza siê w boki o okreœlone d³ugoœci.
-
-Rzeczy do zrobienia jutro:
-	Poprawienie w³aœciwoœci skoku.
-
-Problemy:
-	Potrzebne by³o zmienienie ca³ego skryptu ruchu.
