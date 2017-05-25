@@ -1,0 +1,11 @@
+Rzeczy zrobione dziœ:
+	Obejrzenie tutoriali dotycz¹cych projektowania w programie Blender.
+	Obejrzenie tutoriali dotyczacych obs³ugi systemów zliczania punktów.
+	Pobranie programu Blender.
+
+Rzeczy do zrobienia jutro:
+	Utworzenie modelu waluty gry (monet/felg).
+	Dodanie do gry modelu waluty.
+
+Problemy:
+	---
