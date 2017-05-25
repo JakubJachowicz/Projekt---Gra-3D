@@ -1,0 +1,11 @@
+Rzeczy zrobione dziœ:
+	Zaznajomienie siê z obs³ug¹ Unity.
+	Wykonanie pierwszego, prowizorycznego projektu.
+	Dalsza nauka C#, pod k¹tem korzystania z Unity.
+
+Rzeczy do zrobienia jutro:
+	Dodanie mo¿liwoœci ruchu w projekcie.
+	Dalsza nauka C#, pod k¹tem korzystania z Unity.
+
+Problemy:
+	---
