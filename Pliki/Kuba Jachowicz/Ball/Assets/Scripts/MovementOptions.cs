@@ -46,9 +46,11 @@ public class MovementOptions : MonoBehaviour {
 
 	void jumping()
 	{
+		bool isOnGround = Physics.Raycast (transform.position, Vector3.down, 1f);
 		Vector3 direction = Vector3.zero;
 		if (Input.GetKeyDown (KeyCode.W))
 			direction = Vector3.up;
-		rigidbody.AddForce (direction * 500f);
+		if(isOnGround)
+			rigidbody.AddForce (direction * 500f);
 	}
 }
