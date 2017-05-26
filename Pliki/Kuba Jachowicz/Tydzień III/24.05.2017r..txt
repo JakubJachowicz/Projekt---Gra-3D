@@ -1,8 +1,0 @@
-Rzeczy zrobione dziœ:
-	Utworzenie modelu monety i dodanie go do gry.
-	
-Rzeczy do zrobienia jutro:
-	Dodanie skrypty zliczaj¹cego monety.
-
-Problemy:
-	Pozostawnienie konceptu felgi zamiast monety na inny termin w fazie doskonalenia gry.

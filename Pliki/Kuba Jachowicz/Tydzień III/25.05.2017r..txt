@@ -1,8 +1,0 @@
-Rzeczy zrobione dziœ:
-	Dodanie skryptu zliczaj¹cego monety.
-
-Rzeczy do zrobienia jutro:
-	Dodanie skryptu usuwaj¹cego dotkniête monety.
-
-Problemy:
-	--- 
