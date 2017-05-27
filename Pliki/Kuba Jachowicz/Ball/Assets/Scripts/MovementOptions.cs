@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MovementOptions : MonoBehaviour {
-
+	
+	private int score = 0;
 	int lane = 0;
 	Rigidbody rigidbody;
 	public float forwardSpeed = 100f;
@@ -52,5 +53,10 @@ public class MovementOptions : MonoBehaviour {
 			direction = Vector3.up;
 		if(isOnGround)
 			rigidbody.AddForce (direction * 500f);
+	}
+
+	public void AddScore(int newScoreValue){
+		score += newScoreValue;
+		Debug.Log ("Monety: " + score);
 	}
 }
