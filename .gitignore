@@ -1,4 +1,4 @@
-
+﻿
 Pliki/Kuba Jachowicz/Tydzień II/
 
 Pliki/Kuba Jachowicz/Tydzień I/14\.05\.2017r\.\.txt
@@ -6,3 +6,49 @@ Pliki/Kuba Jachowicz/Tydzień I/14\.05\.2017r\.\.txt
 Pliki/Kuba Jachowicz/Tydzień II/16\.05\.2017r\.\.txt
 
 Pliki/Radosław Halejcio/tydzień II/16\.05\.17\.txt
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+/[Bb]uilds/
+/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+Corridor/Library/ShaderCache/
+Corridor/Library/metadata/
+
