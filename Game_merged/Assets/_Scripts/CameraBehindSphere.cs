@@ -9,7 +9,7 @@ public class CameraBehindSphere : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Vector3 vector = sphere.position + new Vector3 (0, 2f, -7f);
+		Vector3 vector = sphere.position + new Vector3(0, 4f, -8f);
 		transform.position = Vector3.Lerp(transform.position, vector, Time.deltaTime*10);
 	}
 }

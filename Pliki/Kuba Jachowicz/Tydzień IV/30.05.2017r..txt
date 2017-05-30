@@ -1,0 +1,10 @@
+Rzeczy zrobione dziœ:
+	Dodanie prefabu coina z animacj¹ i skryptami do g³ownej gry.
+	Poprawienie skoku kulki (szybsze spadanie).
+	Nadanie kulce ruchu przyspieszonego od pocz¹tku rozgrywki (wyeliminowanie klawisza enter).
+
+Rzeczy do zrobienia jutro:
+	Skrypt generuj¹cy roz³o¿enie coinów na planszy.
+
+Problemy:
+	Do przerobienia jest metoda skoku (z si³y na inn¹ metodê, konieczne).
