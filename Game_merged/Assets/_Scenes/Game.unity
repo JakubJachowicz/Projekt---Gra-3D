@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44646937, g: 0.49630994, b: 0.5747267, a: 1}
+  m_IndirectSpecularColor: {r: 0.44658017, g: 0.49641502, b: 0.57482153, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -3271,6 +3271,8 @@ GameObject:
   m_Component:
   - component: {fileID: 237366160}
   - component: {fileID: 237366159}
+  - component: {fileID: 237366162}
+  - component: {fileID: 237366161}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -3327,6 +3329,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &237366161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237366158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede96da92546dc6488f48d53535f9a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphere: {fileID: 1364161845}
+--- !u!114 &237366162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237366158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a59467aadca23a44afec7a7f7c54b24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myLight: {fileID: 237366159}
 --- !u!1001 &240414682
 Prefab:
   m_ObjectHideFlags: 0
@@ -5189,6 +5215,8 @@ GameObject:
   m_Component:
   - component: {fileID: 336425860}
   - component: {fileID: 336425859}
+  - component: {fileID: 336425862}
+  - component: {fileID: 336425861}
   m_Layer: 0
   m_Name: Directional Light (1)
   m_TagString: Untagged
@@ -5245,6 +5273,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 381
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &336425861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 336425858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede96da92546dc6488f48d53535f9a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphere: {fileID: 1364161845}
+--- !u!114 &336425862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 336425858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a59467aadca23a44afec7a7f7c54b24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myLight: {fileID: 336425859}
 --- !u!1001 &342077207
 Prefab:
   m_ObjectHideFlags: 0
@@ -17856,6 +17908,8 @@ GameObject:
   - component: {fileID: 1364161843}
   - component: {fileID: 1364161842}
   - component: {fileID: 1364161841}
+  - component: {fileID: 1364161847}
+  - component: {fileID: 1364161846}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -17942,6 +17996,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1364161846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364161840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09583c3b75925c541a82e65c1668672c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1364161847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364161840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bee2287504e46a74284eb85ab1734f3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laneWidth: 3
+  forwardSpeed: 150
 --- !u!1001 &1364398274
 Prefab:
   m_ObjectHideFlags: 0
@@ -24562,6 +24640,7 @@ GameObject:
   - component: {fileID: 1813132334}
   - component: {fileID: 1813132333}
   - component: {fileID: 1813132332}
+  - component: {fileID: 1813132337}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -24639,6 +24718,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 29.947, y: 3.7410002, z: 1.8690001}
+--- !u!114 &1813132337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1813132331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671b23a39dbf6624b9324e990ef22737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphere: {fileID: 1364161845}
 --- !u!1 &1814474716
 GameObject:
   m_ObjectHideFlags: 0

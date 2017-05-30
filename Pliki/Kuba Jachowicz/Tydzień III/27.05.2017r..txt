@@ -1,0 +1,8 @@
+Rzeczy zrobione dziœ:
+	Usuniêcie mo¿liwosci skakania w nieskoñczonoœæ.
+
+Rzeczy do zrobienia jutro:
+	Stworzenie licznika monet.
+
+Problemy:
+	--

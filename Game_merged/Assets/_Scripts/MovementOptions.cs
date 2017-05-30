@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MovementOptions : MonoBehaviour {
-
+	
+	private int score = 0;
 	int lane = 0;
 	Rigidbody rigidbody;
+	public float laneWidth = 2.5f;
 	public float forwardSpeed = 100f;
 
 	void Start() {
@@ -38,7 +40,7 @@ public class MovementOptions : MonoBehaviour {
 			else
 				lane++;
 		}
-		float delta = lane * 2f - rigidbody.position.x;
+		float delta = lane * laneWidth - rigidbody.position.x;
 		Vector3 velocity = rigidbody.velocity;
 		velocity.x = delta * 3f;
 		rigidbody.velocity = velocity;
@@ -46,9 +48,16 @@ public class MovementOptions : MonoBehaviour {
 
 	void jumping()
 	{
+		bool isOnGround = Physics.Raycast (transform.position, Vector3.down, 1f);
 		Vector3 direction = Vector3.zero;
 		if (Input.GetKeyDown (KeyCode.W))
 			direction = Vector3.up;
-		rigidbody.AddForce (direction * 500f);
+		if(isOnGround)
+			rigidbody.AddForce (direction * 500f);
+	}
+
+	public void AddScore(int newScoreValue){
+		score += newScoreValue;
+		Debug.Log ("Monety: " + score);
 	}
 }
