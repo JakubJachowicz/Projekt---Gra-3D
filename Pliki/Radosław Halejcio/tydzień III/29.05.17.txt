@@ -1,0 +1,8 @@
+Co zrobi³em wczoraj:
+Po³¹czenie sceny z Menu oraz ze skryptami.
+
+Co mam zamiar zrobiæ dzisiaj: 
+Zaimplementowanie assetu opony zamiast kulki.
+
+Czy by³y jakieœ przeszkody:
+brak
