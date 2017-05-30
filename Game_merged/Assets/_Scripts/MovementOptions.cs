@@ -7,6 +7,7 @@ public class MovementOptions : MonoBehaviour {
 	private int score = 0;
 	int lane = 0;
 	Rigidbody rigidbody;
+	public float laneWidth = 2.5f;
 	public float forwardSpeed = 100f;
 
 	void Start() {
@@ -39,7 +40,7 @@ public class MovementOptions : MonoBehaviour {
 			else
 				lane++;
 		}
-		float delta = lane * 2f - rigidbody.position.x;
+		float delta = lane * laneWidth - rigidbody.position.x;
 		Vector3 velocity = rigidbody.velocity;
 		velocity.x = delta * 3f;
 		rigidbody.velocity = velocity;

@@ -3271,6 +3271,8 @@ GameObject:
   m_Component:
   - component: {fileID: 237366160}
   - component: {fileID: 237366159}
+  - component: {fileID: 237366162}
+  - component: {fileID: 237366161}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -3327,6 +3329,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &237366161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237366158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede96da92546dc6488f48d53535f9a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphere: {fileID: 1364161845}
+--- !u!114 &237366162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237366158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a59467aadca23a44afec7a7f7c54b24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myLight: {fileID: 237366159}
 --- !u!1001 &240414682
 Prefab:
   m_ObjectHideFlags: 0
@@ -17992,7 +18018,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee2287504e46a74284eb85ab1734f3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 100
+  laneWidth: 3
+  forwardSpeed: 150
 --- !u!1001 &1364398274
 Prefab:
   m_ObjectHideFlags: 0
