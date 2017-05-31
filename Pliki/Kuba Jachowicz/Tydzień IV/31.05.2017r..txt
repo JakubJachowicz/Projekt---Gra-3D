@@ -1,0 +1,8 @@
+Rzeczy zrobione dziœ:
+	Skrypt tworz¹cy kulkê, œwiat³o i kamerê niezale¿nie od planszy na pocz¹tku gry.
+
+Rzeczy do zrobienia jutro:
+	Skrypt generuj¹cy roz³o¿enie coinów na planszy.
+
+Problemy:
+	Nieudana próba stworzenia generatora monet.
