@@ -1,9 +1,0 @@
-Rzeczy zrobione dziœ:
-	Dodanie skryptu usuwaj¹cego dotkniête monety.
-	Dodanie animacji obrotu do monety.
-
-Rzeczy do zrobienia jutro:
-	Usuniêcie mo¿liwoœci skakania nieskoñczenie wysoko.
-
-Problemy:
-	---
