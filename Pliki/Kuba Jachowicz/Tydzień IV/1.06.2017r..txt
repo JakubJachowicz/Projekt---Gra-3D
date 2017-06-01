@@ -1,0 +1,8 @@
+Rzeczy zrobione dziœ:
+	Próba dodania skryptu rozmieszczaj¹cego monety.
+
+Rzeczy do zrobienia jutro:
+	Sukcesywne dodanie skryptu.
+
+Prolbemy:
+	Ma³a iloœæ czasu na dopracowanie skryptu, z góry przepraszam.
