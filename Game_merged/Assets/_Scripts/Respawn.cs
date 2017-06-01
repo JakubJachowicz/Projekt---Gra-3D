@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour {
 
+	public Transform[] spawnLocation;
 	public GameObject sphereprefab;
 	public Camera cameraprefab;
 	public Light lightprefab;
-	/*
 	public GameObject coinprefab;
-	public int coinTotal = 1000;
-	*/
+	
 	// Use this for initialization
 	void Start () {
-		/*int i;
+		GameObject spawnClone = new  GameObject [spawnLocation.Length];
+		int i;
+		for (i=0; i<spawnLocation.Length; i++)
+		{
+			spawnClone[i] = Instantiate(coinprefab, spawnLocation[i].transform.position, Quaternion) as GameObject;
+		}
+		/*
 		Vector3 * coinPosition = new Vector3 [coinTotal];
 		GameObject * coin = new GameObject [coinTotal];
 		for (i=0; i<coinTotal;i++)
@@ -22,9 +27,9 @@ public class Respawn : MonoBehaviour {
 		}
 		for (i=0; i<coinTotal;i++)
 		{
-			coinPosition[i].x = Random.Range(-2, 3);
-			coinPosition[i].y = Random.Range(1, 3);
-			coinPosition[i].z = Random.Range(10, 1000);
+			coinPosition.x = Random.Range(-2, 3);
+			coinPosition.y = Random.Range(1, 3);
+			coinPosition.z = Random.Range(10, 1000);
 			coin[i].transform.position = coinPosition[i];
 		}
 		*/
