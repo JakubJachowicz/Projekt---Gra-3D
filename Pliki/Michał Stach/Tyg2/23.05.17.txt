@@ -1,0 +1,5 @@
+Co robi³em wczoraj:
+Stworzyliœmy pierwszy tor gry.
+Co zamierzam robiæ dziœ:
+Po³¹czyæ komponenty gry.
+Problemy:

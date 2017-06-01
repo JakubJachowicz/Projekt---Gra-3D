@@ -1,0 +1,5 @@
+Co robi³em wczoraj:
+Poprawianie efektów kolizji.
+Co zamierzam robiæ dziœ:
+Praca nad teksturami
+Problemy:
