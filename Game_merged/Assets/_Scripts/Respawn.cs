@@ -4,19 +4,26 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour {
 
-	public Transform[] spawnLocation;
+	public int totalCoins = 100;
+	public Transform spawnLocation;
+	
 	public GameObject sphereprefab;
 	public Camera cameraprefab;
 	public Light lightprefab;
 	public GameObject coinprefab;
 	
+	void Awake(){
+		spawnLocation.position = new Vector3(0, 2, 10);
+	}
+	
 	// Use this for initialization
 	void Start () {
-		GameObject spawnClone = new  GameObject [spawnLocation.Length];
+		/*GameObject spawnClone = new  GameObject [spawnLocation.Length];*/
+		
 		int i;
-		for (i=0; i<spawnLocation.Length; i++)
+		for (i=0; i<totalCoins; i++)
 		{
-			spawnClone[i] = Instantiate(coinprefab, spawnLocation[i].transform.position, Quaternion) as GameObject;
+			spawnNewCoin();
 		}
 		/*
 		Vector3 * coinPosition = new Vector3 [coinTotal];
@@ -51,4 +58,16 @@ public class Respawn : MonoBehaviour {
 	void Update () {
 		
 	}
+	
+	void spawnNewCoin()
+	{
+		spawnLocation.position = new Vector3 (Random.Range(-2, 3), Random.Range(1, 3), Random.Range(10, 1000));
+			/*
+			spawnLocation[i].position.x = Random.Range(-2, 3);
+			spawnLocation[i].position.y = Random.Range(1, 3);
+			spawnLocation[i].position.z = Random.Range(10, 1000);
+			*/
+			Instantiate(coinprefab, spawnLocation.transform.position, Quaternion.identity);
+	}
 }
+
