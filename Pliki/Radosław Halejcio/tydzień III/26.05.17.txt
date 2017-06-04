@@ -1,0 +1,8 @@
+Co zrobi³em wczoraj:
+Dopracowanie sceny i zaimplementowanie nowych assetów.
+
+Co mam zamiar zrobiæ dzisiaj: 
+Po³¹czenie sceny z Menu oraz ze skryptami.
+
+Czy by³y jakieœ przeszkody:
+brak

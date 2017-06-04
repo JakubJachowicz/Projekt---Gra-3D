@@ -22,6 +22,12 @@ public class MusicPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if(Input.GetKeyDown(KeyCode.M)){
+			if (AudioListener.volume != 0f) {
+				AudioListener.volume = 0f;
+			} else {
+				AudioListener.volume = 1f;
+			}
+		}
 	}
 }

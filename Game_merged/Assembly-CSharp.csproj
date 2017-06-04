@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{787CEF11-B3EB-28A5-DEFA-B54DC185E4BF}</ProjectGuid>
+    <ProjectGuid>{F133F85C-4006-992E-872A-96BEB30208BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,10 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\LevelHandler.cs" />
-     <Compile Include="Assets\Scripts\LogoLoader.cs" />
-     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
-     <Compile Include="Assets\Scripts\PauseControl.cs" />
+     <Compile Include="Assets\_Scripts\BallColorChange.cs" />
+     <Compile Include="Assets\_Scripts\CameraBehindSphere.cs" />
+     <Compile Include="Assets\_Scripts\LevelHandler.cs" />
+     <Compile Include="Assets\_Scripts\LightBehindBall.cs" />
+     <Compile Include="Assets\_Scripts\LightSwitch.cs" />
+     <Compile Include="Assets\_Scripts\LogoLoader.cs" />
+     <Compile Include="Assets\_Scripts\MovementOptions.cs" />
+     <Compile Include="Assets\_Scripts\MusicPlayer.cs" />
+     <Compile Include="Assets\_Scripts\PauseControl.cs" />
+     <Compile Include="Assets\_Scripts\PlayerPrefsManager.cs" />
+     <Compile Include="Assets\_Scripts\SettingsManager.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
@@ -80,7 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{D82616AB-F139-B5BA-AE51-86A20C991F0D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{11FA1E38-FD9F-85E6-54A2-62B60CCCB8A7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
