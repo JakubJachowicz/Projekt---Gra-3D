@@ -55,6 +55,7 @@
      <Compile Include="Assets\_Scripts\LogoLoader.cs" />
      <Compile Include="Assets\_Scripts\MovementOptions.cs" />
      <Compile Include="Assets\_Scripts\MusicPlayer.cs" />
+     <Compile Include="Assets\_Scripts\Obstacle.cs" />
      <Compile Include="Assets\_Scripts\PauseControl.cs" />
      <Compile Include="Assets\_Scripts\Respawn.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
