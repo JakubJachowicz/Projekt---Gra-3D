@@ -3,20 +3,28 @@
  using System.Collections;
  
  public class SettingsManager : MonoBehaviour {
- 
+
      public Slider volumeSlider;
      public Slider difficultySlider;
 	 public LevelHandler levelHandler;
- 
-	private MusicPlayer musicPlayer;
+
+	 public Toggle whiteToggle;
+	 public Toggle redToggle;
+	 public Toggle blueToggle;
+ 	
      // Use this for initialization
      void Start () {
-		 musicPlayer = GameObject.FindObjectOfType<MusicPlayer> ();
          volumeSlider.value = AudioListener.volume;
+         whiteToggle.isOn = true;
+		 redToggle.isOn = false;
+		 blueToggle.isOn = false;
      }
-     
+
+
+
      // Update is called once per frame
      void Update () {
+    	whiteToggle.OnPointerClick();
 		AudioListener.volume = volumeSlider.value;
      }
  
