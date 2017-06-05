@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class BallColorChange : MonoBehaviour {
 
+	
+	static Vector4 ballColor;
+
 	// Use this for initialization
 	void Start () {
-		
+		GetComponent<Renderer> ().material.color = ballColor;
 	}
 	
 	// Update is called once per frame

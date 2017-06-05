@@ -1,0 +1,9 @@
+Rzeczy zrobione dziœ:
+	Dodanie skrytpu rozmieszczenia monet.
+	Napisanie czêœci sprawozdania projektu.
+
+Rzeczy do zrobienia jutro:
+	Skoñczenie sprawozdania projektu.
+
+Problemy:
+	---

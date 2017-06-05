@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\_Scripts\BallColorChange.cs" />
      <Compile Include="Assets\_Scripts\CameraBehindSphere.cs" />
+     <Compile Include="Assets\_Scripts\CoinBehaviour.cs" />
      <Compile Include="Assets\_Scripts\LevelHandler.cs" />
      <Compile Include="Assets\_Scripts\LightBehindBall.cs" />
      <Compile Include="Assets\_Scripts\LightSwitch.cs" />
@@ -56,6 +57,8 @@
      <Compile Include="Assets\_Scripts\MusicPlayer.cs" />
      <Compile Include="Assets\_Scripts\PauseControl.cs" />
      <Compile Include="Assets\_Scripts\PlayerPrefsManager.cs" />
+     <Compile Include="Assets\_Scripts\Respawn.cs" />
+     <Compile Include="Assets\_Scripts\ScoreDisplay.cs" />
      <Compile Include="Assets\_Scripts\SettingsManager.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
