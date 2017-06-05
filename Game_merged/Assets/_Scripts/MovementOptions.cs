@@ -7,7 +7,7 @@ public class MovementOptions : MonoBehaviour {
 	int lane = 0;
 	Rigidbody rigidbody;
 	
-	public float laneWidth = 2.5f;
+	public float laneWidth = 3f;
 	public float jumpForce = 500f;
 	public float acceleration=0.1f;
 	public float maxSpeed=30.0f;
