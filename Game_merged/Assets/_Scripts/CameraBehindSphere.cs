@@ -10,6 +10,6 @@ public class CameraBehindSphere : MonoBehaviour {
 	void Update () {
 
 		Vector3 vector = sphere.position + new Vector3(0, 4f, -8f);
-		transform.position = Vector3.Lerp(transform.position, vector, Time.deltaTime*10);
+		transform.position = Vector3.Lerp(transform.position, vector, 2*Time.deltaTime);
 	}
 }
