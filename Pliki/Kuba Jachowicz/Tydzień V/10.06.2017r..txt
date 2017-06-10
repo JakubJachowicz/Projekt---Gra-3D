@@ -1,0 +1,10 @@
+Rzeczy zrobione dziœ:
+	Ostatnie dopracowania skoku.
+	Dodanie p³ynnoœci ruchowi kamery.
+
+Rzeczy do zrobienia jutro:
+	Pogrupowanie elementów gry w mniejsze podgrupy (dla przejrzystoœci projektu).
+	Dodanie tekstu wyœwietlaj¹cego liczbê monet.
+
+Problemy:
+	---
