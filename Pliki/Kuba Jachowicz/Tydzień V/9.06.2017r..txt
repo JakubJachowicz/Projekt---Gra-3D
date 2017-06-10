@@ -1,0 +1,9 @@
+Rzeczy zrobione dziœ:
+	Dodanie skrypu poprawiaj¹cego oœwietlenie.
+
+Rzeczy do zrobienia jutro:
+	Ostatnie dopracowania skoku.
+	Dodanie p³ynnoœci ruchowi kamery.
+
+Problemy:
+	---
