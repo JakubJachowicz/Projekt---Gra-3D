@@ -1,0 +1,10 @@
+Rzeczy zrobione dziœ:
+	Dodanie tekstu wyœwietlaj¹cego liczbê monet.
+	Pogrupowanie elementów gry w mniejsze podgrupy (dla przejrzystoœci projektu).
+
+Rzeczy do zrobienia jutro:
+	Zakoñczenie prac nad projektem.
+	Po³¹czenie materia³ów w ca³oœæ.
+
+Problemy:
+	---
