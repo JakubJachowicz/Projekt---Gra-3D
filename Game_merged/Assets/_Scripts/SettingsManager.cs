@@ -24,7 +24,6 @@
 
      // Update is called once per frame
      void Update () {
-    	whiteToggle.OnPointerClick();
 		AudioListener.volume = volumeSlider.value;
      }
  

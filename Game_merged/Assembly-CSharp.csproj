@@ -62,6 +62,7 @@
      <Compile Include="Assets\_Scripts\ScoreDisplay.cs" />
      <Compile Include="Assets\_Scripts\SettingsManager.cs" />
      <Compile Include="Assets\_Scripts\Spawner.cs" />
+     <Compile Include="Assets\_Scripts\StartGame.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

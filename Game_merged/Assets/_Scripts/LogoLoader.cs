@@ -13,6 +13,6 @@ public class LogoLoader : MonoBehaviour {
 	
 	private IEnumerator Countdown () {
 		yield return new WaitForSeconds(5);
-		levelHandler.LoadNextLevel();
+		levelHandler.LoadLevel("Menu");
 	}
 }
