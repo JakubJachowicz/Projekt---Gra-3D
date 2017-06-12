@@ -6,18 +6,16 @@ public class BallColorChange : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		if (PlayerPrefsManager.GetFireColour() == 1)
+			GetComponent<Renderer> ().material.color = Color.white;
+		if (PlayerPrefsManager.GetFireColour() == 2)
+			GetComponent<Renderer> ().material.color = Color.red;
+		if (PlayerPrefsManager.GetFireColour() == 3)
+			GetComponent<Renderer> ().material.color = Color.yellow;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.R))
-			GetComponent<Renderer> ().material.color = Color.red;
-		if (Input.GetKeyDown (KeyCode.G))
-			GetComponent<Renderer> ().material.color = Color.green;
-		if (Input.GetKeyDown (KeyCode.B))
-			GetComponent<Renderer> ().material.color = Color.blue;
-		if (Input.GetKeyDown (KeyCode.Y))
-			GetComponent<Renderer> ().material.color = Color.yellow;
+		
 	}
 }
