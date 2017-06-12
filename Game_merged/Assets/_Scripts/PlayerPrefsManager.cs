@@ -6,6 +6,8 @@ public class PlayerPrefsManager : MonoBehaviour {
  
      const string MASTER_VOLUME_KEY = "master_volume";
      const string HIGH_SCORE = "High Score";
+	 const string FIRE_COLOUR = "Fire Colour";
+
  
      public static void SetMasterVolume (float volume) {
          if (volume >= 0f && volume <= 1f) {
@@ -20,10 +22,20 @@ public class PlayerPrefsManager : MonoBehaviour {
      }
  
      public static void SetHighScore (int score) {
-         PlayerPrefs.SetInt (HIGH_SCORE, score);
+     	if (score > GetHighScore()) {
+        	PlayerPrefs.SetInt (HIGH_SCORE, score);
+        }
      }
  
      public static int GetHighScore () {
          return PlayerPrefs.GetInt (HIGH_SCORE);
+     }
+
+	public static void SetFireColour (int colourIndex) {
+		PlayerPrefs.SetInt (FIRE_COLOUR, colourIndex);
+     }
+ 
+	public static int GetFireColour () {
+		return PlayerPrefs.GetInt(FIRE_COLOUR);
      }
  }
