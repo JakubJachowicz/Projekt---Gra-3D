@@ -14,15 +14,15 @@ public class Spawner : MonoBehaviour {
 		int portion = (int)numberOfCoins/3;
 		coins = new GameObject[numberOfCoins];
 		for (i= 0; i<portion; i++) {
-			GameObject singleCoin = Instantiate(coinPrefab, new Vector3(-3, 1, Random.Range(10, 800)), Quaternion.identity) as GameObject;
+			GameObject singleCoin = Instantiate(coinPrefab, new Vector3(-3, 1, Random.Range(10, 780)), Quaternion.identity) as GameObject;
 			coins[i] = singleCoin;
 		}
 		for (i=portion;i<2*portion;i++) {
-			GameObject singleCoin = Instantiate(coinPrefab, new Vector3(0, 1, Random.Range(10, 800)), Quaternion.identity) as GameObject;
+			GameObject singleCoin = Instantiate(coinPrefab, new Vector3(0, 1, Random.Range(10, 780)), Quaternion.identity) as GameObject;
 			coins[i] = singleCoin;
 		}
 		for (i=2*portion;i<numberOfCoins;i++) {
-			GameObject singleCoin = Instantiate(coinPrefab, new Vector3(3, 1, Random.Range(10, 800)), Quaternion.identity) as GameObject;
+			GameObject singleCoin = Instantiate(coinPrefab, new Vector3(3, 1, Random.Range(10, 780)), Quaternion.identity) as GameObject;
 			coins[i] = singleCoin;
 		}
 	}

@@ -13,6 +13,7 @@ public class MovementOptions : MonoBehaviour {
 	public float acceleration = 0.08f;
 	public float maxSpeed = 15.0f;
 	public Text counterText;
+    public float jumpForce = 1000f;
 	
 	private float curSpeed=1.0f;
 	private int score = 0;
@@ -59,36 +60,23 @@ public class MovementOptions : MonoBehaviour {
 		bool isOnGround = Physics.Raycast (transform.position, Vector3.down, 1f);
 		if(isOnGround && Input.GetKeyDown (KeyCode.W))
 		{
+            /*
+            rigidbody.AddForce(Vector3.up * jumpForce);
+            */
 			Vector3 veloc = rigidbody.velocity;
-			veloc = new Vector3(rigidbody.velocity.x, 80f, 7f);
-			int counter;
-			if (rigidbody.velocity.z < 5)
-				counter = 2;
-			else if (rigidbody.velocity.z < 7)
-				counter = 3;
-			else if (rigidbody.velocity.z < 9)
-				counter = 4;
-			else
-				counter = 5;
-			rigidbody.velocity = Vector3.Lerp(rigidbody.velocity, veloc, counter/rigidbody.velocity.z);
+			veloc = new Vector3(rigidbody.velocity.x, 120f, rigidbody.velocity.z);
+			rigidbody.velocity = Vector3.Lerp(rigidbody.velocity, veloc, 0.5f);
+            
 		}
 			
-	
+	    
 		if(!isOnGround)
 		{
 			Vector3 vel = rigidbody.velocity;
-			int counter;
-			if (rigidbody.velocity.z < 6)
-				counter = 2;
-			else if (rigidbody.velocity.z < 9)
-				counter = 3;
-			else if (rigidbody.velocity.z < 11)
-				counter = 4;
-			else
-				counter = 5;
 			vel = new Vector3(rigidbody.velocity.x, -16f, 7f);
-			rigidbody.velocity = Vector3.Lerp(rigidbody.velocity, vel, counter/rigidbody.velocity.z);
+			rigidbody.velocity = Vector3.Lerp(rigidbody.velocity, vel, 0.5f);
 		}
+        
 		
 	}
 
