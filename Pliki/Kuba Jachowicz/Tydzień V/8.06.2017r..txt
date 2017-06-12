@@ -1,8 +1,0 @@
-Rzeczy zrobione dziœ:
-	Skoñczenie sprawozdania projektu.
-
-Rzeczy do zrobienia jutro:
-	Dodanie skryptu poprawiaj¹cego jakoœæ oœwietlenia przy prze³¹czaniu scen.
-
-Problemy:
-	---
