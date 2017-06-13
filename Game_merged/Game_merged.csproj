@@ -87,6 +87,7 @@
     <Compile Include="Assets\_Scripts\BallColorChange.cs" />
     <Compile Include="Assets\_Scripts\CameraBehindSphere.cs" />
     <Compile Include="Assets\_Scripts\CoinBehaviour.cs" />
+    <Compile Include="Assets\_Scripts\FinishTrigger 1.cs" />
     <Compile Include="Assets\_Scripts\FinishTrigger.cs" />
     <Compile Include="Assets\_Scripts\LevelHandler.cs" />
     <Compile Include="Assets\_Scripts\LightBehindBall.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Assets\_Scripts\SettingsManager.cs" />
     <Compile Include="Assets\_Scripts\Spawner.cs" />
     <Compile Include="Assets\_Scripts\StartGame.cs" />
+    <Compile Include="Assets\_Scripts\WinTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
