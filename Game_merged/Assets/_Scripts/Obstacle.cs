@@ -8,8 +8,7 @@ public class Obstacle : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider collision) {
 
-		if (collision.gameObject.name != "Sphere")
-			return;
-		Application.LoadLevel("Game Over");
+        if (collision.gameObject.name != "Sphere")
+			Application.LoadLevel("Game Over");
 		}
 }

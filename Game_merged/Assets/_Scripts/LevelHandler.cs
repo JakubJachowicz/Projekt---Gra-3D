@@ -20,6 +20,7 @@ public class LevelHandler : MonoBehaviour {
 	
 	public void LoadNextLevel () {
 		Debug.Log ("Load next scene requested");
-		Application.LoadLevel(Application.loadedLevel + 1);
+
+        Application.LoadLevel(Application.loadedLevel + 1);
 	}
 }
