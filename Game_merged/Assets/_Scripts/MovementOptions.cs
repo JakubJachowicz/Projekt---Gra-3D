@@ -10,10 +10,10 @@ public class MovementOptions : MonoBehaviour {
 	Rigidbody rigidbody;
 	
 	public float laneWidth = 3f;
-    /*
+
 	public float acceleration = 0.08f;
 	public float maxSpeed = 15.0f;
-    */
+
 	public Text counterText;
     public float jumpForce = 1000f;
 	
@@ -26,12 +26,11 @@ public class MovementOptions : MonoBehaviour {
 
 	void Update() {
 		rigidbody.velocity = new Vector3(rigidbody.velocity.x, rigidbody.velocity.y, curSpeed);
-        /*
-        curSpeed += acceleration;
+  curSpeed += acceleration;
 
         if (curSpeed > maxSpeed)
             curSpeed = maxSpeed;
-            */
+
         switchLane();
 		jumping();
 	}
@@ -54,11 +53,11 @@ public class MovementOptions : MonoBehaviour {
 		}
 		float delta = lane * laneWidth - rigidbody.position.x;
         rigidbody.transform.Translate(new Vector3(delta, 0, 0));
-        /*
+
 		Vector3 velocity = rigidbody.velocity;
 		velocity.x = delta * 3f;
 		rigidbody.velocity = velocity;
-        */
+
 	}
 
 	void jumping()
@@ -67,24 +66,21 @@ public class MovementOptions : MonoBehaviour {
 		if(isOnGround && Input.GetKeyDown (KeyCode.W))
 		{
             
-            rigidbody.AddForce(Vector3.up * jumpForce);
-            
-            /*
+
 			Vector3 veloc = rigidbody.velocity;
 			veloc = new Vector3(rigidbody.velocity.x, 120f, rigidbody.velocity.z);
 			rigidbody.velocity = Vector3.Lerp(rigidbody.velocity, veloc, 0.5f);
-            */
+
 		}
 			
 	    
 		if(!isOnGround)
 		{
-            rigidbody.AddForce(Vector3.down * 0.1f * jumpForce);
-            /*
+
 			Vector3 vel = rigidbody.velocity;
 			vel = new Vector3(rigidbody.velocity.x, -16f, 7f);
 			rigidbody.velocity = Vector3.Lerp(rigidbody.velocity, vel, 0.5f);
-            */
+
 		}
         
 		

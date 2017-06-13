@@ -1,0 +1,156 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon HD 7700 Series (ID=0x683f)
+    Vendor:   ATI
+    VRAM:     1005 MB
+    Driver:   22.19.162.4
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Michał\Desktop\FireTire2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Michał\Desktop\FireTire2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Michał\Desktop\FireTire2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Michał\Desktop\FireTire2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Michał\Desktop\FireTire2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Michał\Desktop\FireTire2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Michał\Desktop\FireTire2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Michał\Desktop\FireTire2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Michał\Desktop\FireTire2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Michał\Desktop\FireTire2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.050 seconds
+Platform assembly: C:\Users\Michał\Desktop\FireTire2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Michał\Desktop\FireTire2_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.921199 ms
+Change scene requested to Menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.735240 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 345.
+Total: 0.431265 ms (FindLiveObjects: 0.055138 ms CreateObjectMapping: 0.027569 ms MarkObjects: 0.302082 ms  DeleteObjects: 0.045292 ms)
+
+Change scene requested to Instructions
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.305581 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 350.
+Total: 0.378883 ms (FindLiveObjects: 0.063015 ms CreateObjectMapping: 0.027963 ms MarkObjects: 0.266242 ms  DeleteObjects: 0.020480 ms)
+
+Change scene requested to Game
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.637248 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 12471.
+Total: 3.519441 ms (FindLiveObjects: 1.511989 ms CreateObjectMapping: 0.321775 ms MarkObjects: 1.624630 ms  DeleteObjects: 0.059865 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 42d4 -> priority: 1 
+  Thread -> id: 42d0 -> priority: 1 
+Change scene requested to Win
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.179835 ms
+
+Unloading 200 unused Assets to reduce memory usage. Loaded Objects now: 324.
+Total: 1.897568 ms (FindLiveObjects: 0.091767 ms CreateObjectMapping: 0.044505 ms MarkObjects: 0.347375 ms  DeleteObjects: 1.412739 ms)
+
+Change scene requested to Menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.572263 ms
+Object duplication prevented.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 354.
+Total: 0.374945 ms (FindLiveObjects: 0.056714 ms CreateObjectMapping: 0.027963 ms MarkObjects: 0.282390 ms  DeleteObjects: 0.006695 ms)
+
+Change scene requested to Instructions
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.617556 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 352.
+Total: 0.365886 ms (FindLiveObjects: 0.060652 ms CreateObjectMapping: 0.027963 ms MarkObjects: 0.256396 ms  DeleteObjects: 0.019298 ms)
+
+Change scene requested to Game
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.668363 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 12471.
+Total: 3.415465 ms (FindLiveObjects: 1.495053 ms CreateObjectMapping: 0.254426 ms MarkObjects: 1.604937 ms  DeleteObjects: 0.059865 ms)
+
+Change scene requested to Win
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.726893 ms
+
+Unloading 200 unused Assets to reduce memory usage. Loaded Objects now: 324.
+Total: 1.753419 ms (FindLiveObjects: 0.078376 ms CreateObjectMapping: 0.035840 ms MarkObjects: 0.257971 ms  DeleteObjects: 1.380049 ms)
+
+Change scene requested to Menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.549814 ms
+Object duplication prevented.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 354.
+Total: 0.408028 ms (FindLiveObjects: 0.060652 ms CreateObjectMapping: 0.027569 ms MarkObjects: 0.311141 ms  DeleteObjects: 0.007089 ms)
+
+Change scene requested to Settings
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.672695 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 418.
+Total: 0.472225 ms (FindLiveObjects: 0.067348 ms CreateObjectMapping: 0.029538 ms MarkObjects: 0.351314 ms  DeleteObjects: 0.022843 ms)
+
+Change scene requested to Menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.962175 ms
+Object duplication prevented.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 354.
+Total: 0.441899 ms (FindLiveObjects: 0.065379 ms CreateObjectMapping: 0.029538 ms MarkObjects: 0.307596 ms  DeleteObjects: 0.038597 ms)
+
+Quit game requested
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
